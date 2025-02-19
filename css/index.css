@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+main h1{
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-size: 3.5em;
+    text-align: center;
+    color: #202020;
+    margin-top: 5%;
+}
+main h2{
+    font-family: "Anton", serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: center;
+    color: #7a7a7a;
+    margin-top: auto;
+}
+#txt{
+    font-weight: normal;
+    font-size: 1.0em;
+    text-align: center;
+    color: #333;
+    margin-top: auto;
+}
+#convidado{
+    font-weight: normal;
+    font-size: 1.0em;
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 20px;
+
+    
+}
+#bt-face{
+    background-image: url(../img/facebook.png);
+    background-size: 10%;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    user-select: none;
+    cursor: pointer;
+    
+}
+#bt-google{
+    background-image: url(../img/google.png);
+    background-size: 10%;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 20px;
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 10px 8px;
+    border-radius: 8px;
+    user-select: none;
+    cursor: pointer;
+    height: 10%;
+}
+#bt-apple{
+    background-image: url(../img/apple.png);
+    background-size: 10%;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 8px;
+    width: 300px;
+    margin-top: 20px;
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+    border-radius: 8px;
+    user-select: none;
+    cursor: pointer;
+}
+#bt-email{
+    background-image: url(../img/email.png);
+    background-size: 10%;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 8px;
+    width: 300px;
+    margin-top: 20px;
+    background-color: rgb(253, 253 ,253);
+    text-align: center;
+    border-radius: 8px;
+    user-select: none;
+    cursor: pointer;
+}
+.logos {
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    gap: 100px; 
+}
+
+.logos img {
+    width: 80px; 
+    height: auto;
+}
+
